@@ -1,0 +1,26 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 100%;
+  background-color: #161625;
+  min-height: 90vh;
+}
+.white {
+  color: white;
+}
+.gray {
+  color: gray;
+}
+.about-head {
+  margin-bottom: 50px;
+}
+.blue {
+  color: #007bff;
+}
+.loader {
+  align-self: center;
+}
+.ul-container {
+  list-style-type: none;
+}

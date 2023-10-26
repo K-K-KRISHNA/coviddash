@@ -1,0 +1,43 @@
+.list-item-container {
+  width: 824px;
+  height: 64px;
+  border-width: 0px;
+  display: flex;
+  justify-content: space-between;
+  color: #94a3b8;
+  padding-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+  align-self: center;
+  margin-right: 25px;
+}
+.dehighliter {
+  text-decoration: none;
+}
+.list-item-container:hover {
+  background-color: #1f1f30;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+.code-container {
+  display: flex;
+  background-color: #1cd4d429;
+  align-items: center;
+  justify-content: space-evenly;
+  color: yellow;
+  font-size: 16px;
+  align-self: center;
+  width: 76px;
+  height: 32px;
+  padding: 4px, 6px, 4px, 6px;
+  border-radius: 4px;
+}
+@media screen and (max-width: 768px) {
+  .list-item-container {
+    width: 312px;
+    height: 48px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}

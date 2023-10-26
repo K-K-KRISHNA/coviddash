@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.footer-tagline {
+  color: #94a3b8;
+  font-size: 16px;
+  text-align: center;
+}
+.icon-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-icon {
+  color: white;
+  background-color: transparent;
+  margin-right: 25px;
+}
+.covid19 {
+  color: white;
+}
+.india {
+  color: blue;
+}
